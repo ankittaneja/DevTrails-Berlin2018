@@ -8,4 +8,7 @@ public with sharing class SampleClass {
         return inputData;
     }
 
+    public void NEW_METHOS(){
+    	
+    }
 }
