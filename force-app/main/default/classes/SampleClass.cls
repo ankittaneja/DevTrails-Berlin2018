@@ -8,8 +8,4 @@ public with sharing class SampleClass {
         return inputData;
     }
 
-    public static String NEW_BAD_METHOD(String test){
-    	return test;
-    }
-
 }
