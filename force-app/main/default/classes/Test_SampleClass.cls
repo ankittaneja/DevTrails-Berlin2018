@@ -2,7 +2,7 @@
 private class Test_SampleClass {
     
 	@IsTest
-	private static void testMethodOne() {
+	private static void test_MethodOne() {
 		
 		Test.startTest();
 		System.assertEquals('something', SampleClass.sampleMethod('something'));
@@ -11,10 +11,10 @@ private class Test_SampleClass {
     }
 
 	@IsTest
-	private static void testMethodFailingOnPurpose() {
+	private static void test_MethodFailingOnPurpose() {
 
 		Test.startTest();
-		System.assertEquals('wrong', SampleClass.properlyNamedMethod('something'));
+		System.assertEquals('something', SampleClass.properlyNamedMethod('something'));
 		Test.stopTest();
 
 	}
