@@ -2,7 +2,7 @@
 private class Test_SampleClass {
     
 	@IsTest
-	private static void test_Method_One() {
+	private static void testMethodOne() {
 		
 		Test.startTest();
 		System.assertEquals('something', SampleClass.sampleMethod('something'));
@@ -11,7 +11,7 @@ private class Test_SampleClass {
     }
 
 	@IsTest
-	private static void test_MethodFailingOn_Purpose() {
+	private static void testMethodFailingOnPurpose() {
 
 		Test.startTest();
 		System.assertEquals('something', SampleClass.properlyNamedMethod('something'));
