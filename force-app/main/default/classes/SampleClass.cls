@@ -4,7 +4,7 @@ public with sharing class SampleClass {
         return inputData;
     }
 
-    public static  String properlyNamedMethod(String inputData) {
+    public static  String propNamedMethod(String inputData) {
 
         return inputData;
     }
